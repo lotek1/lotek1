@@ -5,9 +5,21 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1 class="site__title">
-      <span class="site__title-text">De Dype Skoger</span>
-    </h1>
+    <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
     <script src="/lotek1/out/main.js"></script>
+    <css-doodle>
+:doodle {
+  @grid: 18 / 100vmax;
+  background: #0e0e0e;
+}
+--bg: #F4EDB2;
+background: linear-gradient(
+  @rand(360deg),
+  @var(--bg) 50%, transparent 50%
+);
+</css-doodle>
+
+
+
   </body>
 </html>
