@@ -1,31 +1,28 @@
-:root {
-  --color-purple: rgba(197, 18, 193, 1);
-  --color-pink: rgba(241, 50, 50, 1);
+header{
+  height:20px;
+  background: #fff;
+  font-family: 'Amatic SC', cursive;
+  color: #000;
+  font-size: 30px;
 }
 
-body {
-  overflow: hidden;
-  margin: 20px;
-  padding: 20px;
+.dot {
   height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style: none;
+  overflow: hidden;
+}
+
+main {
+  margin: 20px;
+  padding: 2px;
   display: flex;
   font-family: Arial;
   align-items: center;
   justify-content: center;
 }
-
-.site__title {
-  font-size: 100px;
-  width: 50%;
-  text-align: center;
-}
-
-.site__title-text {
-  background: -webkit-linear-gradient(
-    34deg,
-    var(--color-purple),
-    var(--color-pink)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+footer{
+  height:100px;
+  background: #fff;
 }
