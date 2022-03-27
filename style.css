@@ -13,7 +13,14 @@ body {
   perspective: 1000px;
 }
 #page {
-  background-image: url("textureblack.png");
+  background-image: url("img/textureblack.png");
   background-size:cover;
             background-repeat:no-repeat" 
+}
+.header {
+  width: 100%;
+    position: absolute;
+    height: 1px;
+    margin: auto;
+    top: 0;
 }
